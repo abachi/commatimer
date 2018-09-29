@@ -28,3 +28,7 @@ test('Timer.startPomodoro(period) should start counting down from "period"', fun
 	expect(start_id).toBeGreaterThan(0);
 });
 
+test('Timer.isWorkingTimeDone(end_at) should return whatever working time is finished' , function(){
+	expect(Timer.isWorkingTimeDone(Date.now() + 5000)).toBe(false);
+	expect(Timer.isWorkingTimeDone(Date.now() - 5000)).toBe(true);
+});

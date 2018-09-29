@@ -1,0 +1,34 @@
+{
+  "name": "commatimer",
+  "version": "0.1.0",
+  "description": "commatimer is CLI app imlimenting the pomodoro theory in time management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abachi/tomatime.git"
+  },
+  "keywords": [
+    "pomodoro",
+    "time",
+    "management",
+    "short",
+    "break",
+    "focus",
+    "timer"
+  ],
+  "author": "Nasser Abachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abachi/tomatime/issues"
+  },
+  "homepage": "https://github.com/abachi/tomatime#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "commander": "^2.18.0",
+    "figlet": "^1.2.0"
+  }
+}

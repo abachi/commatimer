@@ -1,0 +1,2 @@
+## Commatimer
+A simple command-line timer uses [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) to help in reducing distraction and increase focusing for anyone in love with command-line.

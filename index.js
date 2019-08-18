@@ -1,10 +1,7 @@
 #!/usr/bin/env node
 
 var commatimer = require('commander'),
-	Timer = require('./lib/timer'),
-	chalk = require('chalk'),
-	clear = require('clear'),
-	figlet = require('figlet');
+	Timer = require('./lib/timer');
 
 commatimer.version('0.1.0', '-v', '--version');
 
@@ -16,7 +13,6 @@ commatimer.command('focus [working] [resting]')
 		var start_at = Date.now();
 		var pomodoro = working * 60 * 1000;
 		var resting = resting * 60 * 1000;
-		var end_at = start_at + pomodoro;
 		var timer = new Timer(pomodoro, resting);
 		timer.startPomodoro();
 	});

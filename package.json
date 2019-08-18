@@ -4,7 +4,8 @@
   "description": "commatimer is CLI app imlimenting the pomodoro theory in time management.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "focus": "node index.js focus"
   },
   "repository": {
     "type": "git",

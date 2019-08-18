@@ -20,7 +20,7 @@
     "timer",
     "command line"
   ],
-  "author": "Nasser Abachi",
+  "author": "Nasser Abachi <abachinasser@gmail.com> https://nasserabachi.me",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/abachi/commatimer/issues"

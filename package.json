@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/abachi/tomatime.git"
+    "url": "git+ssh://git@github.com/abachi/commatimer.git"
   },
   "keywords": [
     "pomodoro",
@@ -17,18 +17,22 @@
     "short",
     "break",
     "focus",
-    "timer"
+    "timer",
+    "command line"
   ],
   "author": "Nasser Abachi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abachi/tomatime/issues"
+    "url": "https://github.com/abachi/commatimer/issues"
   },
-  "homepage": "https://github.com/abachi/tomatime#readme",
+  "homepage": "https://github.com/abachi/commatimer#readme",
   "dependencies": {
     "chalk": "^2.4.1",
     "clear": "^0.1.0",
     "commander": "^2.18.0",
     "figlet": "^1.2.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
   }
 }
